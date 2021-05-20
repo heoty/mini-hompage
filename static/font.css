@@ -1,0 +1,50 @@
+.NotoSans{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.NotoSans-title{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight:bolder;
+  font-size:120%;
+}
+
+.NotoSans-bold{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight:bolder;
+}
+  
+@font-face {
+  font-family: 'KyoboHand';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+.KyoboHand {
+  font-family: 'KyoboHand';
+}
+  
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.DungGeunMo {
+  font-family: 'DungGeunMo';
+  font-size:110%;
+}
+  
+@font-face {
+  font-family: 'KOTRA_BOLD-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+  font-weight: lighter;
+  font-style: normal;
+}
+  
+.KOTRA_BOLD-Bold {
+  font-family: 'KOTRA_BOLD-Bold';
+}
+
+

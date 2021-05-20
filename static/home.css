@@ -1,0 +1,156 @@
+.box {
+    background-color: white;
+    flex: 3;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+    display: flex;
+    flex-direction: column;
+
+    overflow-x:hidden;
+    overflow-y:auto;
+  }
+  
+.news {
+  flex: 0.3;
+  margin: 1.5rem;
+  
+  display: flex;
+  flex-direction: row;
+}
+  
+.left {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+}
+  
+.post {
+  line-height:3.5ch;
+}
+
+.update {
+  flex: 0.1;
+  border-bottom: 2px solid #cdcdcd;
+}
+  
+.right {
+  flex: 0.5;
+  margin-top:28px;
+  
+  display: flex;
+  flex-direction: column;
+}
+  
+.col1 {
+  border-top:2px solid #cdcdcd;
+  flex:0.333;
+  border-bottom:2px dashed #cdcdcd;
+  padding-top:10px;
+}
+
+.col2 {
+  flex:0.333;
+  border-bottom:2px dashed #cdcdcd;
+  padding-top:10px;
+}
+
+.col3 {
+  flex:0.333;
+  border-bottom:2px dashed #cdcdcd;
+}
+
+.Miniroom {
+  flex:0.7;
+  margin:0rem 1.5rem 1.5rem 1.5rem;
+  
+  display: flex;
+  flex-direction: column;
+}
+  
+.MiniroomTitle{
+  flex:0.05;
+  border-bottom:2px solid #cdcdcd;
+}
+
+.MiniroomContents{
+  flex:1;
+  background-image: url("../static/images/otter.gif");
+  background-repeat : no-repeat;
+  background-position : center;
+  background-size : contain;
+}
+  
+.menu-container{
+  margin-top:75px;
+}
+
+.menu-container .Home:hover {
+  background-color: #617dc1;
+}
+
+.menu-container .Diary:hover {
+  background-color: #617dc1;
+}
+
+.menu-container .Gallery:hover {
+  background-color: #617dc1;
+}
+
+.menu-container .Guestbook:hover {
+  background-color: #617dc1;
+}
+
+.Home{
+  background-color: #3B87AB;
+  border-radius: 5px;
+  border: 1px solid #cdcdcd;
+  padding: 5px;
+  font-size:15px;
+  margin-bottom: 5px;
+}
+
+.Diary {
+  background-color: #3B87AB;
+  border-radius: 5px;
+  border: 1px solid #cdcdcd;
+  padding: 5px;
+  font-size:15px;
+  margin-bottom: 5px;
+}
+
+.Gallery {
+  background-color: #3B87AB;
+  border-radius: 5px;
+  border: 1px solid #cdcdcd;
+  padding: 5px;
+  font-size:15px;
+  margin-bottom: 5px;
+}
+
+.Guestbook {
+  background-color: #3B87AB;
+  border-radius: 5px;
+  border: 1px solid #cdcdcd;
+  padding: 5px;
+  font-size:15px;
+}
+
+.color-red {
+  color: red;
+}
+.color-blue {
+  color: blue;
+}
+.background-red{
+  background-color:#f2625e;
+  border-radius: 5px;
+  color: white;
+  padding:1px 3px 1px 3px;
+}
+
+.background-blue{
+  background-color:#667ac1;
+  border-radius: 5px;
+  color: white;
+  padding:1px 3px 1px 3px;
+}

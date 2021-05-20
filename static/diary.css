@@ -1,0 +1,109 @@
+.calendar {
+    flex: 0.15;
+    border: 1px solid #cdcdcd;
+    margin: 15px;
+  
+    display: flex;
+    flex-direction: row;
+  }
+
+.today {
+    flex: 0.1;
+    margin:auto;
+    text-align:center;
+    font-size: 1.3rem;
+}
+
+.month {
+    flex: 0.8;
+    margin:auto;
+    word-spacing: 3px;
+}
+  
+.color-calendar {
+    color: #3f86af;
+}
+
+.color-red {
+    color: red;
+}
+  
+.color-blue {
+    color: blue;
+}
+  
+.diary_content {
+    margin-left: 15px;
+    margin-right: 15px;
+  
+    display:flex;
+    flex-direction: column;
+  
+    word-break:break-all;
+    overflow-x: auto;
+    overflow-y:auto;
+}
+
+.diary1 {
+    flex: 0.3;
+    border: 1px solid #cdcdcd;
+  
+    display:flex;
+    flex-direction:column;
+}
+
+.diary2 {
+    flex: 0.3;
+    border: 1px solid #cdcdcd;
+  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.diary_date {
+    flex: 0.1;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.diary_section {
+    flex: 0.9;
+  
+    align-items:center;
+    text-align:center;
+    margin: 15px 50px 25px 50px;
+}
+
+.hidden{
+    display: none;
+}
+
+.secret_diary {
+    flex: 0.3;
+    border: 1px solid #cdcdcd;
+  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hidden_button {
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    text-align:center;
+    color: white;
+    background-color: white;
+    border:0px;
+  
+    transition-duration: 0.2s;
+}
+
+.hidden_button:hover{
+    background-color: #03ab8a;
+    color:white;
+    border: 1px solid #cdcdcd;
+}
+
+
+  
+
